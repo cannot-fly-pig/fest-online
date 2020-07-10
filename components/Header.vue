@@ -1,9 +1,6 @@
 <template>
 <header>
-	<div class="logo-wrap">
-		<div class="logo-ruby">オンライン</div>
-		<div class="logo">文化祭</div>
-	</div>
+	<img class="logo" src="@/assets/image/Logotype_B.svg" alt="オンライン文化祭j">
 	<div class="link">About</div>
 	<div class="link">サークル</div>
 	<div class="link">ステージ</div>
@@ -13,9 +10,8 @@
 
 <style>
 header {
-	height: 8vh;
-	width: 100vw;
-	position: fixed;
+	height: 10vh;
+	width: 100%;
 	top: 0;
 	left: 0;
 	display: flex;
@@ -24,18 +20,12 @@ header {
 	align-items: center;
 	padding-left: 10%;
 	padding-right: 10%;
+	font-weight: 600;
+	color: #4d4d4d;
 }
 
-header > .logo-wrap {
-	text-align: center;
-}
-
-header > * > .logo {
-	font-size: 1.4em;
-}
-
-header > * > .logo-ruby {
-	font-size: 0.6em;
+.logo {
+	height: 95%;
 }
 
 </style>
