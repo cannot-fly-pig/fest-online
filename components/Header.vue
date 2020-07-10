@@ -1,6 +1,6 @@
 <template>
 <header>
-	<img class="logo" src="@/assets/image/Logotype_B.svg" alt="オンライン文化祭j">
+	<img class="logo" src="@/assets/image/Logotype_B.svg" alt="オンライン文化祭">
 	<div class="link">About</div>
 	<div class="link">サークル</div>
 	<div class="link">ステージ</div>

@@ -58,5 +58,19 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
+	router: {
+		routes: [
+			{
+				name: "index",
+				path: "/",
+				component: "page/index.vue"
+			},
+			{
+				name: "countdown",
+				path: "/countdown",
+				component: "page/countdown.vue"
+			}
+		]
+	}
 }

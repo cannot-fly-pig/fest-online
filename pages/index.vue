@@ -72,12 +72,9 @@
 
 <script>
 export default {
-	beforeCreate () {
+	created () {
 		const release = new Date(2020, 6, 11, 14, 0)
 		const now = new Date()
-		if (now.getTime() < release.getTime()){
-			this.$router.push('/countdown')
-		}
 	}
 }
 </script>

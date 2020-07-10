@@ -6,7 +6,6 @@
 			</div>
 		</nuxt-link>
 		<div class="bottunImage">
-			<img src="a" alt="">
 		</div>
 	</div>
 </template>
