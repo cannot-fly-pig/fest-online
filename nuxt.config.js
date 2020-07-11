@@ -68,7 +68,7 @@ export default {
 			},
 			{
 				name: "countdown",
-				path: "/korejituhacountdownnanndakedobaguttetukawanakatta",
+				path: "/countdown",
 				component: "page/countdown.vue"
 			}
 		]
