@@ -70,6 +70,11 @@ export default {
 				name: "countdown",
 				path: "/countdown",
 				component: "page/countdown.vue"
+			},
+			{
+				name: "bushi",
+				path: "/bushi",
+				component: "page/bushi.vue"
 			}
 		]
 	}
