@@ -545,6 +545,15 @@
 </main>
 </template>
 
+<script>
+import BushiButton from "@/components/BushiButton.vue"
+
+export default {
+	components: {
+		BushiButton
+	}
+}
+</script>
 <style scoped>
 @media screen and (max-width: 800px) {
 	.topWrap > * {

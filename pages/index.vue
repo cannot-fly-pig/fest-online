@@ -78,7 +78,11 @@
 </template>
 
 <script>
+import ContentsButton from "@/components/ContentsButton.vue"
 export default {
+	components: {
+		ContentsButton
+	}
 }
 </script>
 

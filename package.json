@@ -7,10 +7,11 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
+    "generate": "nuxt generate",
     "serve": "nuxt serve"
   },
   "dependencies": {
-    "nuxt": "^2.13.0",
+    "nuxt": "^2.11.0",
     "vue-youtube": "^1.4.0"
   },
   "devDependencies": {}
