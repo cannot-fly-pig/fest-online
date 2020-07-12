@@ -61,16 +61,12 @@ export default {
   build: {
   },
 	router: {
+		base: "/2020/",
 		routes: [
 			{
 				name: "index",
 				path: "/",
 				component: "page/index.vue"
-			},
-			{
-				name: "countdown",
-				path: "/countdown",
-				component: "page/countdown.vue"
 			},
 			{
 				name: "bushi",

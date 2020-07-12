@@ -15,7 +15,7 @@
 			<h1 class="contentsTitle">Contents</h1>
 			<div class="contentsButtonWrap">
 				<ContentsButton
-					buttonImage="/_nuxt/assets/image/bushiBG.png"
+					buttonImage="/2020/bushiBG.png"
 					textColor="black"
 					buttonHeight="40vh"
 					buttonWidth="30vw"
@@ -24,7 +24,7 @@
 					クラブ・サークル企画
 				</ContentsButton>
 				<ContentsButton
-					buttonImage="/nedButton.png"
+					buttonImage="/2020/nedButton.png"
 					textColor="white"
 					buttonHeight="40vh"
 					buttonWidth="30vw"
