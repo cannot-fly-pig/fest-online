@@ -29,40 +29,86 @@
 </template>
 
 <style scoped>
+@media screen and (max-width: 800px) {
+	footer {
+		height: 20vh;
+		position: relative;
+	}
+	.logo {
+		height: 60%;
+		transform: translateX(-15%);
+	}
+	.sns-wrap {
+		width: 90%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: space-between;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.privacyPolicy {
+		flex-direction: column;
+		position: absolute;
+		right: 10%;
+		bottom: 60%;
+	}
+	.sns {
+		margin-left: 10%;
+		width: 60%;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	footer {
+		height: 15vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.logo {
+		height: 100%;
+	}
+
+	.sns-wrap {
+		height: 60%;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: space-between;
+		text-align: center;
+	}
+
+	.privacyPolicy {
+		flex-direction: row;
+	}
+
+	.sns {
+		width: 12vw;
+		justify-content: space-around;
+	}
+}
+
 footer {
 	background-color: #333333;
 	color: #d6d6d6;
-	height: 15vh;
 	width: 100%;
 	bottom: 0;
 	left: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
-.logo {
-	height: 100%;
-}
-
 .sns-wrap {
-	height: 60%;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: space-between;
-	text-align: center;
 	font-weight: 600;
 }
 
 .sns {
-	width: 12vw;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	align-items: space-around;
 }
 
@@ -73,7 +119,6 @@ footer {
 
 .privacyPolicy {
 	display: flex;
-	flex-direction: row;
 	font-size: 0.8em;
 }
 

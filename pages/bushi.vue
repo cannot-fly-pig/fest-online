@@ -545,7 +545,7 @@
 </main>
 </template>
 
-<style>
+<style scoped>
 @media screen and (max-width: 800px) {
 	.topWrap > * {
 		margin-left: 5vw;
