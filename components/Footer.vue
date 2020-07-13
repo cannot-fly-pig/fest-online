@@ -14,8 +14,8 @@
 				<a href="https://www.instagram.com/nada_schoolfestival/">
 					<img src="@/assets/image/Instagram.png" alt="instagram" class="sns-img">
 				</a>
-				<a href="https://www.instagram.com/nada_schoolfestival/">
-					<img src="@/assets/image/YouTube.png" alt="instagram" class="sns-img">
+				<a href="https://www.youtube.com/channel/UCLC_wHGsAxEGR8BSHcPK1SQ">
+					<img src="@/assets/image/YouTube.png" alt="youtube" class="sns-img">
 				</a>
 			</div>
 		</div>

@@ -15,25 +15,25 @@
 			Ryuga Fujie　直走路
 		</div>
 		<youtube
-			video-id="t5yQxbCanE0"
+			video-id="psWbWwCURIg"
 		/>
 		<div class="videoTitle">
 			Kousuke Morita　下手の横好き方法論
 		</div>
 		<youtube
-			video-id="t5yQxbCanE0"
+			video-id="LoxA5kp2dNk"
 		/>
 		<div class="videoTitle">
 			Shun Hokazono　パッシブなリーダーを目指して
 		</div>
 		<youtube
-			video-id="t5yQxbCanE0"
+			video-id="48k81x71BGs"
 		/>
 		<div class="videoTitle">
 			Mamoru Tanabe　クリエイティブになるということ
 		</div>
 		<youtube
-			video-id="t5yQxbCanE0"
+			video-id="t1WfzOMapro"
 		/>
 		<div class="videoTitle">
 			Hikaru Muto　シンギュラリティ前夜の今こそ
@@ -41,7 +41,15 @@
 	</section>
 </main>
 </template>
-
+<script>
+export default {
+	head() {
+		return {
+			title: "NED"
+		}
+	}
+}
+</script>
 <style>
 @media screen and (max-width: 800px) {
 	.nedText {

@@ -80,6 +80,12 @@
 <script>
 import ContentsButton from "@/components/ContentsButton.vue"
 export default {
+	head() {
+		return {
+			title: "灘校オンライン文化祭2020",
+			titleTemplate: ""
+		}
+	},
 	components: {
 		ContentsButton
 	}

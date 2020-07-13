@@ -100,7 +100,7 @@
 				buttonWidth="long"
 				buttonBG="white"
 				buttonMain="部誌"
-				buttonSub="coming soon"
+				buttonLink="https://drive.google.com/file/d/1Yy2WwpYyE3mgu9JgQDGdapGIwEE_SlwM/view?usp=sharing"
 			/>
 		</div>
 
@@ -505,7 +505,7 @@
 				<h2 class="bushiTitle">文藝同好会・図書委員会</h2>
 			</div>
 			<div class="bushiTitleWrapShort">
-				<h2 class="bushiTitle">ドラえもん同好会</h2>
+				<h2 class="bushiTitle">ドラえもん検定</h2>
 			</div>
 			<BushiButton
 				buttonWidth="long"
@@ -549,6 +549,11 @@
 import BushiButton from "@/components/BushiButton.vue"
 
 export default {
+	head() {
+		return {
+			title: "クラブ・サークル企画",
+		}
+	},
 	components: {
 		BushiButton
 	}
