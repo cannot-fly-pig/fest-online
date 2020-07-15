@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
 		<section class="sliderWrap">
 		<img src="@/assets/image/koumon.jpg" alt="校門">
 		</section>
@@ -74,7 +74,7 @@
 		<section class="nextYear">
 			<img src="@/assets/image/nextYear.png" alt="来年は灘校でお待ちしております。">
 		</section>
-	</div>
+	</main>
 </template>
 
 <script>
@@ -83,7 +83,18 @@ export default {
 	head() {
 		return {
 			title: "灘校オンライン文化祭2020",
-			titleTemplate: ""
+			titleTemplate: "",
+			meta: [
+				{ hid: 'description', name: 'description', content: "灘校オンライン文化祭は、新型コロナ感染症の流行により中止を余儀なくされた灘校文化祭のコンテンツをオンラインで発表する初の試みです。" },
+				{ hid: 'og:description', property: 'og:description', content: '灘校オンライン文化祭は、新型コロナ感染症の流行により中止を余儀なくされた灘校文化祭のコンテンツをオンラインで発表する初の試みです。' },
+				{ hid: 'og:url', property: 'og:url', content: 'https://fest.nada-sc.jp/2020/' },
+				{ hid: 'og:title', property: 'og:title', content: '灘校オンライン文化祭2020' },
+				{ hid: 'og:image', property: 'og:image', content: 'https://fest.nada-sc.jp/2020/koumonn.jpg' },
+			],
+			link: [
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
+			]
 		}
 	},
 	components: {

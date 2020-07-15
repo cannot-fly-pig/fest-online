@@ -1,6 +1,6 @@
 <template>
 <header>
-	<img class="logo" src="@/assets/image/Logotype_B.svg" alt="オンライン文化祭">
+	<nuxt-link to="/"><img class="logo" src="@/assets/image/Logotype_B.svg" alt="オンライン文化祭"></nuxt-link>	
 	<div class="link"><nuxt-link to="/#welcome">About</nuxt-link></div>
 	<div class="link"><nuxt-link to="/bushi">サークル</nuxt-link></div>
 	<div class="link">ステージ <br> coming soon</div>
@@ -44,7 +44,7 @@ header {
 }
 
 .logo {
-	height: 95%;
+	height: 9.5vh;
 }
 
 </style>

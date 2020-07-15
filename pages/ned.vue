@@ -12,31 +12,31 @@
 			video-id="t5yQxbCanE0"
 		/>
 		<div class="videoTitle">
-			Ryuga Fujie　直走路
+			<span class="noWrap">Ryuga Fujie　</span><span class="noWrap"> 直走路</span>
 		</div>
 		<youtube
 			video-id="psWbWwCURIg"
 		/>
 		<div class="videoTitle">
-			Kousuke Morita　下手の横好き方法論
+			<span class="noWrap">Kousuke Morita　</span><span class="noWrap">下手の横好き方法論</span>
 		</div>
 		<youtube
 			video-id="LoxA5kp2dNk"
 		/>
 		<div class="videoTitle">
-			Shun Hokazono　パッシブなリーダーを目指して
+			<span class="noWrap">Shun Hokazono　</span><span class="noWrap">パッシブなリーダーを目指して</span>
 		</div>
 		<youtube
 			video-id="48k81x71BGs"
 		/>
 		<div class="videoTitle">
-			Mamoru Tanabe　クリエイティブになるということ
+			<span class="noWrap">Mamoru Tanabe　</span><span class="noWrap">クリエイティブになるということ</span>
 		</div>
 		<youtube
 			video-id="t1WfzOMapro"
 		/>
 		<div class="videoTitle">
-			Hikaru Muto　シンギュラリティ前夜の今こそ
+			<span class="noWrap">Hikaru Muto　</span><span class="noWrap">シンギュラリティ前夜の今こそ</span>
 		</div>
 	</section>
 </main>
@@ -45,7 +45,19 @@
 export default {
 	head() {
 		return {
-			title: "NED"
+			title: "NED",
+			meta: [
+				{ hid: 'description', name: 'description', content: '各界の一流人が披露する驚異のプレゼンテーション、「TED」。「NED」はその灘校版です。各方面で活躍する灘校生による渾身のプレゼンを是非ご覧下さい!' },
+				{ hid: 'og:description', property: 'og:description', content: '各界の一流人が披露する驚異のプレゼンテーション、「TED」。「NED」はその灘校版です。各方面で活躍する灘校生による渾身のプレゼンを是非ご覧下さい!' },
+				{ hid: 'og:url', property: 'og:url', content: 'https://fest.nada-sc.jp/2020/ned' },
+				{ hid: 'og:title', property: 'og:title', content: 'NED | 灘校オンライン文化祭2020' },
+				{ hid: 'og:image', property: 'og:image', content: 'https://fest.nada-sc.jp/2020/NEDfinal.png' },
+			],
+			link: [
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
+			]
+
 		}
 	}
 }
@@ -54,7 +66,13 @@ export default {
 @media screen and (max-width: 800px) {
 	.nedText {
 		font-size: 1.0rem;
+		width: 80vw;
 	}
+
+	.nedImage {
+		width: 80vw;
+	}
+
 	iframe {
 		max-height: 40vh;
 	}
@@ -63,7 +81,13 @@ export default {
 @media screen and (min-width: 800px) {
 	.nedText {
 		font-size: 1.2rem;
+		width: 60vw;
 	}
+
+	.nedImage {
+		width: 60vw;
+	}
+
 	.videoTitle {
 		font-size: 1.2rem;
 	}
@@ -87,14 +111,12 @@ export default {
 }
 
 .nedImage {
-	width: 60vw;
-	heighT: auto;
+	height: auto;
 	border:solid white 1px;
 	margin-bottom: 10vh;
 }
 
 .nedText {
-	width: 60vw;
 	line-height: 200%;
 	margin-bottom: 10vh;
 }
@@ -104,7 +126,13 @@ iframe {
 }
 
 .videoTitle {
+	max-width: 80vw;
 	margin-top: 3vh;
 	margin-bottom: 10vh;
+	text-align: center;
+} 
+
+.noWrap {
+	white-space: nowrap;
 }
 </style>
