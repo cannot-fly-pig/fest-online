@@ -552,13 +552,6 @@ export default {
 	head() {
 		return {
 			title: "クラブ・サークル企画",
-			meta: [
-				{ hid: 'description', name: 'description', content: 'クラブ・サークルの部誌や動画コンテンツをオンラインで公開します!' },
-				{ hid: 'og:description', property: 'og:description', content: 'クラブ・サークルの部誌や動画コンテンツをオンラインで公開します!' },
-				{ hid: 'og:url', property: 'og:url', content: 'https://fest.nada-sc.jp/2020/bushi' },
-				{ hid: 'og:title', property: 'og:title', content: 'クラブ・サークル企画 | 灘校オンライン文化祭2020' },
-				{ hid: 'og:image', property: 'og:image', content: 'https://fest.nada-sc.jp/2020/bushiBG.png' },
-			],
 			link: [
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
@@ -612,7 +605,7 @@ export default {
 .topWrap {
 	height: 90vh;
 	width: 100%;
-	background-image: url("~@/assets/image/bushiBG.png");
+	background-image: url("~@/assets/image/bushi/bushiBG.png");
 	background-size: cover;
 }
 

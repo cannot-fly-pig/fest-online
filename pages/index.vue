@@ -1,7 +1,7 @@
 <template>
   <main>
 		<section class="sliderWrap">
-		<img src="@/assets/image/koumon.jpg" alt="校門">
+		<img src="@/assets/image/index/koumon.jpg" alt="校門">
 		</section>
 		<section class="welcomeWrap" id="welcome">
 			<h1 class="welcomeTitle">Welcome!</h1>
@@ -64,7 +64,7 @@
 		<section class="pvWrap">
 			<h1 class="pvTitle">学校PV</h1>
 			<div class="imageWrap">
-				<img src="@/assets/image/pv-bg.jpg" alt="pv公開時期">
+				<img src="@/assets/image/index/pv-bg.jpg" alt="pv公開時期">
 				<div class="pvText">
 					<span class="noWrap">第二期(7月18,19日)</span> <br>
 					<span class="noWrap">公開予定</span>
@@ -72,7 +72,7 @@
 			</div>
 		</section>
 		<section class="nextYear">
-			<img src="@/assets/image/nextYear.png" alt="来年は灘校でお待ちしております。">
+			<img src="@/assets/image/index/nextYear.png" alt="来年は灘校でお待ちしております。">
 		</section>
 	</main>
 </template>
@@ -84,13 +84,6 @@ export default {
 		return {
 			title: "灘校オンライン文化祭2020",
 			titleTemplate: "",
-			meta: [
-				{ hid: 'description', name: 'description', content: "灘校オンライン文化祭は、新型コロナ感染症の流行により中止を余儀なくされた灘校文化祭のコンテンツをオンラインで発表する初の試みです。" },
-				{ hid: 'og:description', property: 'og:description', content: '灘校オンライン文化祭は、新型コロナ感染症の流行により中止を余儀なくされた灘校文化祭のコンテンツをオンラインで発表する初の試みです。' },
-				{ hid: 'og:url', property: 'og:url', content: 'https://fest.nada-sc.jp/2020/' },
-				{ hid: 'og:title', property: 'og:title', content: '灘校オンライン文化祭2020' },
-				{ hid: 'og:image', property: 'og:image', content: 'https://fest.nada-sc.jp/2020/koumonn.jpg' },
-			],
 			link: [
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
@@ -180,7 +173,7 @@ export default {
 	padding-right: 5vw;
 	margin-bottom: 10vh;
 	color: #4d4d4d;
-	background-image: url("~@/assets/image/welcome-bg.jpg");
+	background-image: url("~@/assets/image/index/welcome-bg.jpg");
 	background-repeat: no-repeat;
 }
 

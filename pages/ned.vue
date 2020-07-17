@@ -2,7 +2,7 @@
 <main>
 	<section class="nedWrap">
 		<h1 class="nedTitle">NED</h1>
-		<img class="nedImage" src="@/assets/image/NEDfinal.png" alt="nedの画像">
+		<img class="nedImage" src="@/assets/image/ned/NEDfinal.png" alt="nedの画像">
 		<div class="nedText">
 			各界の一流人が披露する驚異のプレゼンテーション、「TED」。 <br>
 			「NED」はその灘校版です。各方面で活躍する灘校生による渾身のプレゼンを是非ご覧下さい!
@@ -46,13 +46,6 @@ export default {
 	head() {
 		return {
 			title: "NED",
-			meta: [
-				{ hid: 'description', name: 'description', content: '各界の一流人が披露する驚異のプレゼンテーション、「TED」。「NED」はその灘校版です。各方面で活躍する灘校生による渾身のプレゼンを是非ご覧下さい!' },
-				{ hid: 'og:description', property: 'og:description', content: '各界の一流人が披露する驚異のプレゼンテーション、「TED」。「NED」はその灘校版です。各方面で活躍する灘校生による渾身のプレゼンを是非ご覧下さい!' },
-				{ hid: 'og:url', property: 'og:url', content: 'https://fest.nada-sc.jp/2020/ned' },
-				{ hid: 'og:title', property: 'og:title', content: 'NED | 灘校オンライン文化祭2020' },
-				{ hid: 'og:image', property: 'og:image', content: 'https://fest.nada-sc.jp/2020/NEDfinal.png' },
-			],
 			link: [
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
 				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
@@ -62,7 +55,7 @@ export default {
 	}
 }
 </script>
-<style>
+<style scoped>
 @media screen and (max-width: 800px) {
 	.nedText {
 		font-size: 1.0rem;
