@@ -29,6 +29,13 @@
 		</div>
 
 		<img class="bara" src="@/assets/image/bijokon/bara.png" alt="バラ">
+
+		<div class="touhyouKotira">
+			<nuxt-link to="/bijokon/#touhyou">
+				↓投票はこちらから
+			</nuxt-link>
+		</div>
+
 	</div>
 	<div class="entryList">
 		<!--
@@ -71,19 +78,30 @@
 		/>
 		<BijokonEntry 
 			entryNumber="6"
-			entryName="ぺいちゃん"
-			entryText="毎日鏡をみるたんびに落ち込んじゃうけど、日々可愛くなるために努力してます^ ^ だから嘘はつかなくてもいいけどちょっとでも可愛いってゆってくれたら喜びます！"
+			entryName="ひろみ"
+			entryText="女子大に通う大学２年生です。お裁縫が好きで、このぬいぐるみも自分で作ったの。今日はよろしくね♡"
 			:entryImage="require('@/assets/image/bijokon/shutuenn6.png')"
 			:imagePosition="sayuu"
 		/>
 		<BijokonEntry 
 			entryNumber="7"
-			entryName="結"
-			entryText="生粋のカラオケ好き女子高校生、結です♡週５で学校の近くのコート・ダジ○ールに通っています♡みんなの前で歌うのは緊張するけど、頑張りたいと思います。皆さん、応援よろしくおねがいします。"
+			entryName="ぺいちゃん"
+			entryText="毎日鏡をみるたんびに落ち込んじゃうけど、日々可愛くなるために努力してます^ ^ だから嘘はつかなくてもいいけどちょっとでも可愛いってゆってくれたら喜びます！"
 			:entryImage="require('@/assets/image/bijokon/shutuenn7.png')"
 			imagePosition="left"
 		/>
+		<BijokonEntry 
+			entryNumber="8"
+			entryName="結"
+			entryText="生粋のカラオケ好き女子高校生、結です♡週５で学校の近くのコート・ダジ○ールに通っています♡みんなの前で歌うのは緊張するけど、頑張りたいと思います。皆さん、応援よろしくおねがいします。"
+			:entryImage="require('@/assets/image/bijokon/shutuenn8.png')"
+			:imagePosition="sayuu"
+		/>
+		<div class="touhyouButton" id="touhyou">
+			<a href="https://forms.gle/q6codsGro7GnkSGC7" target="_blank">投票する</a>
+		</div>
 	</div>
+
 </main>
 </template>
 <script>
@@ -131,6 +149,7 @@ export default {
 @media screen and (max-width: 800px) {
 	.titleWrap {
 		flex-direction: column;
+		height: 60vh;
 	}
 
 	.title{
@@ -145,6 +164,10 @@ export default {
 		text-align: center;
 		margin-bottom: 5vh;
 		padding: 3%;
+	}
+
+	.touhyouKotira {
+		width: 100%;
 	}
 
 	.bara {
@@ -180,6 +203,11 @@ export default {
 		font-size: 1.5rem;
 	}
 
+	.touhyouKotira {
+		font-size: 1.5rem;
+		width: 100%;
+	}
+
 	.entryList {
 		display: flex;
 		flex-wrap: wrap;
@@ -205,6 +233,7 @@ main {
 
 .titleWrap {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	position: relative;
 	font-family: "Yu Mincho", "YuMincho";
@@ -243,6 +272,10 @@ main {
 	height: 25%;
 	width: auto;
 	transform: scale(1,-1);
+}
+
+.touhyouKotira {
+	text-align: center;
 }
 
 .entryList {
@@ -308,5 +341,26 @@ main {
 	right: 5%;
 	transform: translateY(-50%);
 }
+
+.touhyouButton {
+	font-size: 2rem;
+	margin-top: 2rem;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.touhyouButton > a {
+	background-color: #F39D41;
+	padding: 1rem;
+	border-radius: 20px;
+}
+
+a:hover, a:link, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
 
 </style>

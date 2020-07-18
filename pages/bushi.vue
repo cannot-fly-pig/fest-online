@@ -294,7 +294,7 @@
 				buttonWidth="long"
 				buttonBG="black"
 				buttonMain="化学マジック"
-				buttonSub="coming soon"
+				buttonLink="https://kaken-sec-room.jimdofree.com/%E6%96%87%E5%8C%96%E7%A5%AD/%E7%AC%AC74%E5%9B%9E%E6%96%87%E5%8C%96%E7%A5%AD-2020/%E5%8C%96%E5%AD%A6%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF/"
 			/>
 		</div>
 

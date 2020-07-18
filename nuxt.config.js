@@ -1,6 +1,6 @@
 const fs = require('fs');
 let bijokon = []
-for (let i=1;i<8;i++) {
+for (let i=1;i<9;i++) {
 	bijokon.push(fs.readdirSync(`static/bijokonImage/${i}`, {withFileTypes: true}).map( x => `/2020/bijokonImage/${i}/${x.name}`))
 }
 export default {

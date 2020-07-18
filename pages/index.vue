@@ -33,24 +33,22 @@
 					NED
 				</ContentsButton>
 				<ContentsButton
-					buttonColor="#efe9ff"
+					buttonImage="/2020/stageBG-pc.jpg"
 					textColor="black"
 					buttonHeight="40vh"
 					buttonWidth="30vw"
 					buttonHref="/"
 				>
 					ステージ企画 <br>
-					coming soon
 				</ContentsButton>
 				<ContentsButton
-					buttonColor="#dbfffd"
+					buttonImage="/2020/BENADA_1.jpg"
 					textColor="black"
 					buttonHeight="40vh"
 					buttonWidth="30vw"
-					buttonHref="/"
+					buttonHref="/decorate"
 				>
-					装飾作品 <br>
-					coming soon
+					装飾作品
 				</ContentsButton>
 			</div>
 		</section>

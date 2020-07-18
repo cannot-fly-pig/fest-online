@@ -6,11 +6,11 @@
 				<span class="noWrap">外には出られなくっても小鳥はさえずってるだろ </span>
 				<span class="noWrap">だから俺らダンサーの心にはいつもODORIBA!</span>
 			</div>
-			<img src="" alt="矢印" class="arrow">
 		</div>
 
 		<div class="odoribaVideoWrap">
 			<div class="odoribaVideo">
+				<img class="videoLogo" src="@/assets/image/odoriba/ND1_logo.png" alt="">
 				<div>
 					<div class="videoTitile">
 						ND1
@@ -20,11 +20,12 @@
 					</div>
 				</div>
 				<youtube
-					video-id="HZleluBJrjA"
+					video-id="TDSi32hBCqM"
 				/>
 			</div>
 
 			<div class="odoribaVideo">
+				<img class="videoLogo" src="@/assets/image/odoriba/NADICE_logo.png" alt="">
 				<div>
 					<div class="videoTitile">
 						NADICE
@@ -35,11 +36,12 @@
 					</div>
 				</div>
 				<youtube
-					video-id="HZleluBJrjA"
+					video-id="aRo5m9TsIJI"
 				/>
 			</div>
 
 			<div class="odoribaVideo">
+				<img class="videoLogo" src="@/assets/image/odoriba/EXO-ND_logo.png" alt="">
 				<div>
 					<div class="videoTitile">
 						EXO-ND
@@ -50,7 +52,7 @@
 					</div>
 				</div>
 				<youtube
-					video-id="HZleluBJrjA"
+					video-id="wIUNTxcbZBw"
 				/>
 			</div>
 
@@ -78,6 +80,10 @@ export default {
 	.topWrap {
 		height: 90vh;
 		background-image: url("~@/assets/image/spotlight.jpg");
+	}
+
+	.noWrap {
+		white-space: none;
 	}
 
 	.odoribaText {
@@ -111,6 +117,12 @@ export default {
 	iframe {
 		width: 100%;
 		max-height: 30vh;
+	}
+
+	.videoLogo {
+		top: 10%;
+		right: 0;
+		width: 8rem;
 	}
 }
 
@@ -175,6 +187,12 @@ export default {
 		padding-bottom: 10vh;
 	}
 
+	.videoLogo {
+		top: 10%;
+		right: 0;
+		width: 8rem;
+	}
+
 }
 
 main {
@@ -205,6 +223,20 @@ main {
 .odoribaVideoWrap {
 	display: flex;
 	align-content: center;
+}
+
+.odoribaVideo {
+	position: relative;
+}
+
+.videoLogo {
+	position: absolute;
+	opacity: 0.2;
+	z-index: 3;
+}
+
+.videoTitle,.videoText {
+	z-index: 100;
 }
 
 </style>

@@ -29,6 +29,7 @@ export default {
 
 .buttonWrap {
 	display: flex;
+	position: relative;
 	justify-content: center;
 	align-items: flex-end;
 	border: solid #707070 1px;
@@ -39,9 +40,22 @@ export default {
 	background-position: center;
 }
 
+.buttonWrap > a {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top : 0;
+	left: 0;
+	z-index: 1;
+}
 
 a:hover, a:link, a:visited, a:active {
 	color: #4d4d4d;
 	text-decoration: none;
+}
+
+.buttonWrap:hover {
+	transition-duration: .1s;
+	transform: scale(1.05);
 }
 </style>
