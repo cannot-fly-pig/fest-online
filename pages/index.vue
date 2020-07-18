@@ -14,42 +14,50 @@
 		<section class="contentsWrap">
 			<h1 class="contentsTitle">Contents</h1>
 			<div class="contentsButtonWrap">
-				<ContentsButton
-					buttonImage="/2020/bushiBG.png"
-					textColor="black"
-					buttonHeight="40vh"
-					buttonWidth="30vw"
-					buttonHref="/bushi"
-				>
+				<div class="ContentsButton">
+					<ContentsButton
+						buttonImage="/2020/bushiBG.png"
+						textColor="black"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/bushi"
+					>
+					</ContentsButton>
 					クラブ・サークル企画
-				</ContentsButton>
-				<ContentsButton
-					buttonImage="/2020/nedButton.png"
-					textColor="white"
-					buttonHeight="40vh"
-					buttonWidth="30vw"
-					buttonHref="/ned"
-				>
+				</div>
+				<div class="ContentsButton">
+					<ContentsButton
+						buttonImage="/2020/nedButton.png"
+						textColor="white"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/ned"
+					>
+					</ContentsButton>
 					NED
-				</ContentsButton>
-				<ContentsButton
-					buttonImage="/2020/stageBG-pc.jpg"
-					textColor="black"
-					buttonHeight="40vh"
-					buttonWidth="30vw"
-					buttonHref="/"
-				>
-					ステージ企画 <br>
-				</ContentsButton>
-				<ContentsButton
-					buttonImage="/2020/BENADA_1.jpg"
-					textColor="black"
-					buttonHeight="40vh"
-					buttonWidth="30vw"
-					buttonHref="/decorate"
-				>
+				</div>
+				<div class="ContentsButton">
+					<ContentsButton
+						buttonImage="/2020/stageBG-pc.jpg"
+						textColor="black"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/"
+					>
+					</ContentsButton>
+					ステージ企画
+				</div>
+				<div class="ContentsButton">
+					<ContentsButton
+						buttonImage="/2020/BENADA_1.jpg"
+						textColor="black"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/decorate"
+					>
+					</ContentsButton>
 					装飾作品
-				</ContentsButton>
+				</div>
 			</div>
 		</section>
 		<!--
@@ -122,6 +130,11 @@ export default {
 	.imageWrap img {
 		width: 80vw;
 	}
+
+	.ContentsButton {
+		width: 100%;
+		display: flex;
+	}
 }
 
 @media screen and (min-width: 800px) {
@@ -149,6 +162,10 @@ export default {
 
 	.imageWrap img {
 		width: 60vw;
+	}
+
+	.ContentsButton {
+		text-align: center;
 	}
 }
 .sliderWrap {
@@ -275,5 +292,10 @@ export default {
 
 .noWrap {
 	white-space: nowrap;
+}
+.ContentsButton {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 </style>
