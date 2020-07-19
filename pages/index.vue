@@ -64,7 +64,7 @@
 						textColor="black"
 						buttonHeight="40vh"
 						buttonWidth="30vw"
-						buttonHref="/"
+						buttonHref="/stage"
 					>
 					</ContentsButton>
 					ステージ企画
@@ -94,7 +94,7 @@
 			<div class="imageWrap">
 				<img src="@/assets/image/index/pv-bg.jpg" alt="pv公開時期">
 				<div class="pvText">
-					<span class="noWrap">第二期(7月18,19日)</span> <br>
+					<span class="noWrap">後日</span>
 					<span class="noWrap">公開予定</span>
 				</div>
 			</div>

@@ -32,7 +32,7 @@
 
 		<div class="touhyouKotira">
 			<nuxt-link to="#touhyou">
-				↓投票はこちらから
+				投票はこちらから
 			</nuxt-link>
 		</div>
 
@@ -41,6 +41,11 @@
 		<!--
 		<div class="itirann">出演者一覧</div>
 		-->
+	<div class="videoWrap">
+		<youtube
+			video-id="K7kvVXDX2vY"
+		/>
+	</div>
 		<BijokonEntry 
 			entryNumber="1"
 			entryName="クセオパトラ"
@@ -282,6 +287,15 @@ main {
 	text-align: center;
 }
 
+.videoWrap {
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .entryList {
 	background-image: url("~@/assets/image/bijokon/zentaihaikei.jpg");
 	background-size: cover;
@@ -367,4 +381,13 @@ a:hover, a:link, a:visited, a:active {
 }
 
 
+</style>
+
+<style>
+@media screen and (max-width: 800px) {
+	iframe {
+		height: 30vh;
+		width: 80%;
+	}
+}
 </style>
