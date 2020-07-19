@@ -27,7 +27,7 @@
 			</div>
 
 			<div class="imageTitle">
-				<span>部署2(中学等)</span>
+				<span>部署2(中学棟)</span>
 			</div>
 
 			<div class="imageWrap">
@@ -40,12 +40,12 @@
 			</div>
 
 			<div class="imageTitle">
-				<span>部署3(高校等)</span>
+				<span>部署3(高校棟)</span>
 			</div>
 
 			<div class="imageWrap">
-				<img src="@/assets/image/decorate/INFINITY_3.jpg" alt="INFINITY高校等壁面">
-				INFINITY 高校等壁面
+				<img src="@/assets/image/decorate/INFINITY_3.jpg" alt="INFINITY高校棟壁面">
+				INFINITY 高校棟壁面
 			</div>
 			<div class="imageWrap">
 				<img src="@/assets/image/decorate/SAILAWAY_3.jpg" alt="SAILAWAY約束のネバーランド">

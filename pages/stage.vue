@@ -4,6 +4,11 @@
 			<h1 class="topTitle">
 				<span>ステージ企画</span>
 			</h1>
+			<div class="topText">
+				<span>
+				毎年、ODORIBA, N-1グランプリ, Ms.コンテストなど、名物企画が揃い踏みのステージ。今年はその様子を直接お見せすることはできませんが、個性豊かな企画たちが、あなたへ画面越しに熱を届け、オンライン文化祭を彩ります！
+			</span>
+			</div>
 		</div>
 
 		<div class="stageContentsWrap">
@@ -48,10 +53,10 @@
 					textColor="black"
 					buttonHeight="40vh"
 					buttonWidth="100%"
-					buttonHref="/"
+					buttonHref="/n1"
 				>
 				</ContentsButton>
-				coming soon
+				N-1グランプリ
 			</div>
 		</div>
 	</main>
@@ -65,7 +70,12 @@ export default {
 	},
 	head() {
 		return {
-			title: "ステージ企画"
+			title: "ステージ企画",
+			link: [
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
+			]
+
 		}
 	}
 }
@@ -79,6 +89,11 @@ export default {
 
 	.topTitle {
 		left: 1rem;
+	}
+	.topText {
+		left: 1rem;
+		top: 45%;
+		width: 80%;
 	}
 	.stageContentsWrap {
 		width: 80%;
@@ -98,6 +113,11 @@ export default {
 	.topTitle {
 		left: 5rem;
 		font-size: 3rem;
+	}
+	.topText {
+		left: 5rem;
+		top: 55%;
+		width: 50%;
 	}
 	.stageContentsWrap {
 		justify-content: space-around;
@@ -125,9 +145,19 @@ export default {
 	top: 30%;
 }
 
+.topText {
+	position: absolute;
+	font-weight: bold;
+	background-color: white;
+}
+
 .topTitle > span {
 	padding: 1rem;
 	background-color: white;
+}
+
+.topText > span {
+	padding: 0.5rem;
 }
 
 .stageContentsWrap {

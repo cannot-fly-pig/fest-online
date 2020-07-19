@@ -38,6 +38,28 @@
 				</div>
 				<div class="ContentsButton">
 					<ContentsButton
+						buttonImage="/2020/special.png"
+						textColor="black"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/special"
+					>
+					</ContentsButton>
+					special
+				</div>
+				<div class="ContentsButton">
+					<ContentsButton
+						buttonImage="/2020/sekaiiti.jpg"
+						textColor="black"
+						buttonHeight="40vh"
+						buttonWidth="30vw"
+						buttonHref="/sekaiiti"
+					>
+					</ContentsButton>
+					世界一受けたい灘校生の授業
+				</div>
+				<div class="ContentsButton">
+					<ContentsButton
 						buttonImage="/2020/stageBG-pc.jpg"
 						textColor="black"
 						buttonHeight="40vh"
@@ -102,7 +124,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @media screen and (max-width: 800px) {
 	.welcomeWrap {
 		background-size: 80vw auto;

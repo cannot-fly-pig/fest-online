@@ -8,7 +8,7 @@
 				<img src="../assets/image/arrow_B.svg" alt="">
 			</div>
 			<img class="modalImage" :src="path[parson][num]" alt="">
-			<div class="after" @click="num += 1" v-if="num  != many-1">
+			<div class="after" @click="num += 1" v-if="num  != path[parson].length - 1">
 				<img src="../assets/image/arrow_B.svg" alt="">
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 		<img class="bara" src="@/assets/image/bijokon/bara.png" alt="バラ">
 
 		<div class="touhyouKotira">
-			<nuxt-link to="/bijokon/#touhyou">
+			<nuxt-link to="#touhyou">
 				↓投票はこちらから
 			</nuxt-link>
 		</div>
@@ -113,7 +113,12 @@ export default {
 	},
 	head() {
 		return {
-			title: "Ms.コンテスト"
+			title: "Ms.コンテスト",
+			link: [
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' },
+				{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
+			]
+
 		}
 	},
 	data () {
@@ -122,7 +127,6 @@ export default {
 			show: false,
 			path: process.env.bijokon,
 			parson: 0,
-			many: 0,
 			num: 0
 		}
 	},

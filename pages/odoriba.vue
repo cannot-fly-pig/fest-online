@@ -3,8 +3,8 @@
 		<div class="topWrap">
 			<img src="@/assets/image/ODORIBA-title.png" alt="odoribaロゴ" class="odoribaLogo">
 			<div class="odoribaText">
-				<span class="noWrap">外には出られなくっても小鳥はさえずってるだろ </span>
-				<span class="noWrap">だから俺らダンサーの心にはいつもODORIBA!</span>
+				外には出られなくっても小鳥はさえずってるだろ <br>
+				だから俺らダンサーの心にはいつもODORIBA!
 			</div>
 		</div>
 

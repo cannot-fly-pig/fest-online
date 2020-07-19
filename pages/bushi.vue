@@ -199,7 +199,7 @@
 				buttonWidth="long"
 				buttonBG="white"
 				buttonMain="部誌"
-				buttonSub="coming soon"
+				buttonLink="https://drive.google.com/file/d/1WrPzMJladubbifnTh2KM4MvxIxA43am4/view?usp=sharing"
 			/>
 		</div>
 
@@ -231,13 +231,7 @@
 				buttonWidth="long"
 				buttonBG="black"
 				buttonMain="サロンマジック"
-				buttonSub="coming soon"
-			/>
-			<BushiButton
-				buttonWidth="long"
-				buttonBG="black"
-				buttonMain="PV"
-				buttonSub="coming soon"
+				buttonLink="https://www.youtube.com/watch?v=9dtMqtrLkIU&list=PLKrfbCNKsYkyP2fS7CfTePK1q7cxtwyML"
 			/>
 		</div>
 
