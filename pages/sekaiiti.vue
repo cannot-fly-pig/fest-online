@@ -33,26 +33,7 @@
 			文藝同好会
 		</div>
 
-		<youtube
-			video-id="qJwiC9qTrWI"
-		/>
-		<div class="videoTitle">
-			グラフ理論をかじった一筆書きの証明
-		</div>
-
-		<youtube
-			video-id="FCEuUiQBFY0"
-		/>
-		<div class="videoTitle">
-			阪急 vs 阪神 ～昨日の敵は今日の友～
-		</div>
-
-		<youtube
-			video-id="TlEJIwhX8aI"
-		/>
-		<div class="videoTitle">
-			こころのケアの最先端をブッダに学ぶ
-		</div>
+		<div class="dainibu">第二部(7/18~19)公開予定の講義もございます!乞うご期待!</div>
 
 	</section>
 </main>
