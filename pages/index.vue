@@ -94,9 +94,18 @@
 			<div class="imageWrap">
 				<img src="@/assets/image/index/pv-bg.jpg" alt="pv公開時期">
 				<div class="pvText">
-					<span class="noWrap">後日</span>
+					<span class="noWrap">近日</span>
 					<span class="noWrap">公開予定</span>
 				</div>
+			</div>
+		</section>
+		<section class="surveyWrap">
+			<div class="surveyTitle">アンケート</div>
+			<div class="surveyText">来場者アンケートにご協力ください。</div>
+			<div class="surveyButtonWrap">
+				<a class="surveyButton" href="https://docs.google.com/forms/d/1ueo4P7cYC2svFl4KYuYxOpzZUplBdVeGq9hUeMmWFNs/viewform?edit_requested=true">
+					<span>回答する</span>
+				</a>
 			</div>
 		</section>
 		<section class="nextYear">
@@ -157,6 +166,17 @@ export default {
 		width: 100%;
 		display: flex;
 	}
+
+	.surveyTitle {
+		font-size: 2rem;
+	}
+	.surveyText {
+		font-size: 1rem;
+	}
+
+	.surveyButtonWrap {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (min-width: 800px) {
@@ -189,6 +209,19 @@ export default {
 	.ContentsButton {
 		text-align: center;
 	}
+
+	.surveyTitle {
+		font-size: 3rem;
+	}
+
+	.surveyText {
+		font-size: 1.5rem;
+	}
+
+	.surveyButtonWrap {
+		font-size: 2rem;
+	}
+
 }
 .sliderWrap {
 	width: 100%;
@@ -281,7 +314,7 @@ export default {
 	padding-left: 10vw;
 	padding-right: 10vw;
 	color: #4d4d4d;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 }
 
 .pvTitle {
@@ -320,4 +353,32 @@ export default {
 	justify-content: center;
 	align-items: center;
 }
+.surveyWrap {
+	width: 100%;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	color: #4d4d4d;
+}
+
+.surveyTitle {
+	font-weight: 600;
+}
+
+.surveyButtonWrap {
+	margin-top: 2rem;
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+.surveyButton > span {
+	background-color: #00ADFC;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+.surveyButton:hover, .surveyButton:link, .surveyButton:visited, .surveyButton:active {
+	color: white;
+	text-decoration: none;
+}
+
 </style>

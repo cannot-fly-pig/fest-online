@@ -70,7 +70,7 @@
 		<BijokonEntry 
 			entryNumber="4"
 			entryName="oguラテ"
-			entryText="こんにちは、ogラテです!名前の通りラテが好きです。最年少なので緊張していますが、おしとやかさと歌には自信があります。あの有名な曲です。多分同じキャラの私に投票できるのは一回だけです。お願いします！"
+			entryText="こんにちは、oguラテです!名前の通りラテが好きです。最年少なので緊張していますが、おしとやかさと歌には自信があります。あの有名な曲です。多分同じキャラの私に投票できるのは一回だけです。お願いします！"
 			:entryImage="require('@/assets/image/bijokon/shutuenn4.png')"
 			:imagePosition="sayuu"
 		/>
