@@ -103,7 +103,7 @@
 			<div class="surveyTitle">アンケート</div>
 			<div class="surveyText">来場者アンケートにご協力ください。</div>
 			<div class="surveyButtonWrap">
-				<a class="surveyButton" href="https://docs.google.com/forms/d/1ueo4P7cYC2svFl4KYuYxOpzZUplBdVeGq9hUeMmWFNs/viewform?edit_requested=true">
+				<a class="surveyButton" href="https://docs.google.com/forms/d/1ueo4P7cYC2svFl4KYuYxOpzZUplBdVeGq9hUeMmWFNs/viewform?edit_requested=true" target="_blank">
 					<span>回答する</span>
 				</a>
 			</div>
