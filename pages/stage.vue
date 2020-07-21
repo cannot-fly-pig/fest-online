@@ -58,6 +58,22 @@
 				</ContentsButton>
 				N-1グランプリ
 			</div>
+
+			<div class="stageContents">
+				<ContentsButton
+					buttonImage="/2020/special.png"
+					textColor="black"
+					buttonHeight="40vh"
+					buttonWidth="100%"
+					buttonHref="/special"
+				>
+				</ContentsButton>
+				special
+			</div>
+
+			<div class="stageContents">
+			</div>
+
 		</div>
 	</main>
 </template>
@@ -177,4 +193,5 @@ export default {
 	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 	font-weight: bold;
 }
+
 </style>

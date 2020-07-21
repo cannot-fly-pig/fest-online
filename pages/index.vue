@@ -38,17 +38,6 @@
 				</div>
 				<div class="ContentsButton">
 					<ContentsButton
-						buttonImage="/2020/special.png"
-						textColor="black"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/special"
-					>
-					</ContentsButton>
-					special
-				</div>
-				<div class="ContentsButton">
-					<ContentsButton
 						buttonImage="/2020/sekaiiti.jpg"
 						textColor="black"
 						buttonHeight="40vh"
@@ -80,6 +69,7 @@
 					</ContentsButton>
 					装飾作品
 				</div>
+				<div class="spacer"></div>
 			</div>
 		</section>
 		<!--
@@ -379,6 +369,11 @@ export default {
 .surveyButton:hover, .surveyButton:link, .surveyButton:visited, .surveyButton:active {
 	color: white;
 	text-decoration: none;
+}
+
+.spacer {
+	height: 0;
+	width: 30vw;
 }
 
 </style>
