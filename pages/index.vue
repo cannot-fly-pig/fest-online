@@ -81,12 +81,10 @@
 		-->
 		<section class="pvWrap">
 			<h1 class="pvTitle">学校PV</h1>
-			<div class="imageWrap">
-				<img src="@/assets/image/index/pv-bg.jpg" alt="pv公開時期">
-				<div class="pvText">
-					<span class="noWrap">近日</span>
-					<span class="noWrap">公開予定</span>
-				</div>
+			<div class="videoWrap">
+				<youtube 
+					video-id="5zGJlMD2698"
+				/>
 			</div>
 		</section>
 		<section class="surveyWrap">
@@ -376,4 +374,18 @@ export default {
 	width: 30vw;
 }
 
+.videoWrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+</style>
+
+<style>
+@media screen and (max-width: 800px) {
+	iframe {
+		height: 30vh;
+	}
+}
 </style>
