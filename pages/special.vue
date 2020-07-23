@@ -5,7 +5,7 @@
 		</section>
 		<section class="videoWrap">
 			<div class="videoTitle">
-				<span>コント</span>
+				<span>大喜利</span>
 			</div>
 			<youtube 
 				video-id="tnGx6-bC5rI"
@@ -18,7 +18,7 @@
 			/>
 
 			<div class="videoTitle">
-				<span>大喜利</span>
+				<span>コント</span>
 			</div>
 
 			<youtube 

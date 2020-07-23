@@ -495,11 +495,8 @@
 		</div>
 
 		<div class="bushiWrap">
-			<div class="bushiTitleWrapShort" style="margin-right: 5%;">
+			<div class="bushiTitleWrapLong">
 				<h2 class="bushiTitle">文藝同好会・図書委員会</h2>
-			</div>
-			<div class="bushiTitleWrapShort">
-				<h2 class="bushiTitle">ドラえもん検定</h2>
 			</div>
 			<BushiButton
 				buttonWidth="long"
@@ -507,6 +504,18 @@
 				buttonMain="部誌"
 				buttonLink="https://drive.google.com/file/d/108nPACqD3-IrVRoxYwgt69vZfNAdasN7/view?usp=sharing"
 			/>
+			<BushiButton
+				buttonWidth="long"
+				buttonBG="white"
+				buttonMain="図書委員会誌"
+				buttonLink="https://drive.google.com/file/d/1_0vxRi_ElYcB_8k2-wOpW5jgwTcbYQd1/view?usp=drivesdk"
+			/>
+		</div>
+
+		<div class="bushiWrap">
+			<div class="bushiTitleWrapLong">
+				<h2 class="bushiTitle">ドラえもん検定</h2>
+			</div>
 			<BushiButton
 				buttonWidth="long"
 				buttonBG="white"
