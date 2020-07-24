@@ -166,7 +166,7 @@
 				buttonWidth="long"
 				buttonBG="black"
 				buttonMain="元部長バンド"
-				buttonSub="coming soon"
+				buttonLink="https://youtu.be/XnulyuiyyKc"
 			/>
 		</div>
 
