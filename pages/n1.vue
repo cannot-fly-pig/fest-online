@@ -6,8 +6,13 @@
 			<div class="topText">
 				2020年5月、文化祭の中止が発表されてもなお、灘校生の漫才への情熱は消えることはなかった…！今年も熱き精鋭8組が、スクリーンの向こう側から笑いの渦を引き起こす！！！
 			</div>
+			<!--
 			<div class="touhyouKotira">
 				<nuxt-link to="#touhyou">↓投票はこちら(7/24まで)</nuxt-link>
+			</div>
+			-->
+			<div class="touhyouKotira">
+				<nuxt-link to="#touhyou">結果はこちら</nuxt-link>
 			</div>
 		</div>
 	</section>
@@ -136,6 +141,30 @@
 		</div>
 	</section>
 
+	<section class="result">
+		<div class="sectionWrap">
+			<img src="@/assets/image/n1/obi.png" alt="背景" class="sectionObi">
+			<div class="sectionTitle">結果</div>
+		</div>
+
+		<div class="spacer"></div>
+		<img class="resultImage" :src="resultImage" alt="">
+		<div class="resultText">
+			※審査員について <br>
+			歴代『N-1グランプリ』の猛者6人に、オンラインでの審査をお願いしました。
+		</div>
+		<div class="resultText">
+			※得点について <br>
+			審査員6人が各コンビ100点満点で付けたのち、一般投票で各コンビの得表率（百分率）を四捨五入したものを加え、合計得点としました。
+		</div>
+		<div class="resultText">
+			※順位について <br>
+			4位『マーボーなすび』，5位『骨太』，6位『どべっこう』の3組は整数値では同点ですが、端数を考慮して順位をつけました
+		</div>
+
+	</section>
+
+<!---
 	<section class="touhyou">
 		<div class="sectionWrap" id="touhyou">
 			<img src="@/assets/image/n1/obi.png" alt="背景" class="sectionObi">
@@ -149,6 +178,7 @@
 			<a class="touhyouButton" href="https://forms.gle/5d99aZir8Atbaqnj6" target="_blank"><span>投票する</span></a>
 		</div>
 	</section>
+	-->
 </main>
 </template>
 <script>
@@ -162,6 +192,17 @@ export default {
 			]
 
 		}
+	},
+	data() {
+		return {
+			resultImage: require("@/assets/image/n1/resultPC.jpg")
+		}
+	},
+	mounted() {
+		console.log(window.innerWidth)
+		if (window.innerWidth <= 800) {
+			this.resultImage = require("@/assets/image/n1/resultMobile.png")
+		}
 	}
 }
 </script>
@@ -169,7 +210,7 @@ export default {
 @media screen and (max-width: 800px){
 	.topWrap {
 		flex-direction: column;
-		justify-content: center;;
+		justify-content: center;
 	}
 
 	.topImage {
@@ -204,12 +245,25 @@ export default {
 		width: 95%;
 	}
 
+	.result {
+		margin-left: 5%;
+		width: 95%;
+	}
+
 	.sectionTitle {
 		font-size: 2rem;
 	}
 
 	.video {
 		width: 90%;
+	}
+
+	.resultImage {
+		margin-left: 5%;
+	}
+	.resultText {
+		margin-left: 10%;
+		font-size: 0.8rem;
 	}
 }
 
@@ -225,6 +279,10 @@ export default {
 	}
 
 	.topText {
+		font-size: 1.3rem;
+	}
+
+	.touhyouKotira {
 		font-size: 1.3rem;
 	}
 
@@ -254,6 +312,12 @@ export default {
 
 	.touhyouWrap {
 		font-size: 1.5rem;
+	}
+	.resultImage {
+		margin-left: 10%;
+	}
+	.resultText {
+		margin-left: 15%;
 	}
 }
 
@@ -355,6 +419,10 @@ export default {
 	margin-top: 10vh;
 }
 
+.result {
+	margin-top: 10vh;
+}
+
 .touhyouWrap {
 	display: flex;
 	flex-direction: column;
@@ -375,13 +443,23 @@ export default {
 }
 
 a:hover, a:link, a:visited, a:active {
-	color: white;
+	color: #F7931E;
 	text-decoration: none;
 }
 
 .spacer {
 	height: 10vh;
 	width: 90%;
+}
+
+.resultImage {
+	width: 80%;
+}
+
+.resultText {
+	width: 80%;
+	line-height: 120%;
+	margin-bottom: 1rem;
 }
 
 </style>
