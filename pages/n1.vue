@@ -141,7 +141,7 @@
 		</div>
 	</section>
 
-	<section class="result">
+	<section class="result" id="touhyou">
 		<div class="sectionWrap">
 			<img src="@/assets/image/n1/obi.png" alt="背景" class="sectionObi">
 			<div class="sectionTitle">結果</div>
@@ -149,6 +149,9 @@
 
 		<div class="spacer"></div>
 		<img class="resultImage" :src="resultImage" alt="">
+		<div style="width: 100%; text-align: center;margin-top: 1rem; margin-bottom: 1rem;">
+			<a class="touhyouButton" href="https://docs.google.com/spreadsheets/d/1D94IWHZJVbpfkQQiIiwEEpXxiniep5PSbvRrYejsPng/edit#gid=0" target="_blank"><span>詳細を見る</span></a>
+		</div>
 		<div class="resultText">
 			※審査員について <br>
 			歴代『N-1グランプリ』の猛者6人に、オンラインでの審査をお願いしました。
@@ -319,6 +322,9 @@ export default {
 	.resultText {
 		margin-left: 15%;
 	}
+	 .touhyouButton {
+		 font-size: 1.5rem;
+	 }
 }
 
 .topWrap {
@@ -442,8 +448,13 @@ export default {
 	border-radius: 5px;
 }
 
-a:hover, a:link, a:visited, a:active {
+.topWrap a:hover, .topWrap a:link, .topWrap a:visited, .topWrap a:active {
 	color: #F7931E;
+	text-decoration: none;
+}
+
+.touhyouButton:hover, .touhyouButton:link, .touhyouButton:visited, .touhyouButton:active {
+	color: white;
 	text-decoration: none;
 }
 
