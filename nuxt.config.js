@@ -77,5 +77,12 @@ export default {
   },
 	router: {
 		base: "/2020/",
+		extendRoutes (routes, resolve) {
+			routes.push({
+			name: 'index',
+			path: '*',
+			component: resolve('~/pages/index.vue')
+})
+}
 	}
 }
