@@ -77,17 +77,5 @@ export default {
   },
 	router: {
 		base: "/2020/",
-		routes: [
-			{
-				name: "index",
-				path: "/",
-				component: "page/index.vue"
-			},
-			{
-				name: "bushi",
-				path: "/bushi",
-				component: "page/bushi.vue"
-			}
-		]
 	}
 }

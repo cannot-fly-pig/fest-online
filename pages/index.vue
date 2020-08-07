@@ -1,103 +1,30 @@
 <template>
   <main>
+	<!--
 		<section class="sliderWrap">
 		<img src="@/assets/image/index/koumon.jpg" alt="校門">
 		</section>
-		<section class="welcomeWrap" id="welcome">
-			<h1 class="welcomeTitle">Welcome!</h1>
-			<div class="welcomeText">
-				灘校オンライン文化祭は、新型コロナ感染症の流行により <br>
-				中止を余儀なくされた灘校文化祭のコンテンツを <br>
-				オンラインで発表する初の試みです。
-			</div>
-		</section>
-		<section class="contentsWrap">
-			<h1 class="contentsTitle">Contents</h1>
-			<div class="contentsButtonWrap">
-				<div class="ContentsButton">
-					<ContentsButton
-						buttonImage="/2020/bushiBG.png"
-						textColor="black"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/bushi"
-					>
-					</ContentsButton>
-					クラブ・サークル企画
-				</div>
-				<div class="ContentsButton">
-					<ContentsButton
-						buttonImage="/2020/nedButton.png"
-						textColor="white"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/ned"
-					>
-					</ContentsButton>
-					NED
-				</div>
-				<div class="ContentsButton">
-					<ContentsButton
-						buttonImage="/2020/sekaiiti.jpg"
-						textColor="black"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/sekaiiti"
-					>
-					</ContentsButton>
-					世界一受けたい灘校生の授業
-				</div>
-				<div class="ContentsButton">
-					<ContentsButton
-						buttonImage="/2020/stageBG-pc.jpg"
-						textColor="black"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/stage"
-					>
-					</ContentsButton>
-					ステージ企画
-				</div>
-				<div class="ContentsButton">
-					<ContentsButton
-						buttonImage="/2020/BENADA_1.jpg"
-						textColor="black"
-						buttonHeight="40vh"
-						buttonWidth="30vw"
-						buttonHref="/decorate"
-					>
-					</ContentsButton>
-					装飾作品
-				</div>
-				<div class="spacer"></div>
-			</div>
-		</section>
-		<!--
-		<section class="newsWrap">
-			<h1 class="newsTitle">News</h1>
-			<div class="newsList">
-			</div>
-		</section>
 		-->
-		<section class="pvWrap">
-			<h1 class="pvTitle">学校PV</h1>
-			<div class="videoWrap">
-				<youtube 
-					video-id="5zGJlMD2698"
-				/>
-			</div>
-		</section>
-		<section class="surveyWrap">
-			<div class="surveyTitle">アンケート</div>
-			<div class="surveyText">来場者アンケートにご協力ください。</div>
-			<div class="surveyButtonWrap">
-				<a class="surveyButton" href="https://docs.google.com/forms/d/1ueo4P7cYC2svFl4KYuYxOpzZUplBdVeGq9hUeMmWFNs/viewform?edit_requested=true" target="_blank">
-					<span>回答する</span>
-				</a>
-			</div>
-		</section>
-		<section class="nextYear">
-			<img src="@/assets/image/index/nextYear.png" alt="来年は灘校でお待ちしております。">
+		<section class="thanks">
+		<div class="thanksText">
+			灘校オンライン文化祭"vivid"、お楽しみいただけましたでしょうか。 <br>
+			本日、8月7日をもちまして、コンテンツの公開期間は終了となります。
+		</div>
+		<div class="thanksText">
+		オンライン文化祭は、新型コロナウイルス感染症の流行をうけて考案された、灘校史上初の試みであり、それゆえ多くのお客様にお楽しみいただけたことを大変嬉しく思います。このような情勢下でも、クラブ・サークルの展示やステージ企画などを通して灘校の雰囲気を存分に感じ取っていただける機会を設けられたことは、灘校のこれからの発展に必ず大きな意味を持ってくるものだと思います。	
+		</div>
+		<div class="thanksText">
+		今回のオンライン文化祭は、一言で表せば生徒らの「意地」とも言うべきものでした。文化祭の実地開催中止には多くの灘校生がショックを受けました。クラブ・サークルによっては一年前から準備を始めるほどに、文化祭への意気込みには例年並々ならぬものがあったためです。やりきれない落胆の中、それでも披露したい努力の結晶があるという「意地」がオンライン文化祭を成功に導きました。
+		</div>
+		<div class="thanksText">
+		結果として、オンライン文化祭は中高で開催される文化祭としておよそ最高潮の熱量と出力を誇ったと思います。そのような点で、今回の文化祭は例年と異なるアプローチでもって、閲覧者の皆様へ生徒らの確かな熱意をお伝えすることができたと、自信を持って言うことができます。
+		</div>
+		<div class="thanksText">
+		現在は、厳しい状況下で日常を取り戻そうと懸命になるあまり摩耗して、徐々に活力を失っていくような、閉塞的な時流に向かいつつある時期なのかもしれません。そのような逆境の中で、灘校生の「意地」が生み出したこの文化祭をご覧になったことで、少しでも活力を取り戻していただけたならば幸いです。そして閲覧者の皆様に、今後も灘校生の活動を暖かく見守っていただけるとすれば、われわれにとってこれほどの幸せはありません。
+		</div>
+		<div class="thanksText">
+		灘校オンライン文化祭"vivid"
+		</div>
 		</section>
 	</main>
 </template>
@@ -165,6 +92,13 @@ export default {
 	.surveyButtonWrap {
 		font-size: 1.5rem;
 	}
+
+	.thanksText {
+		width: 80%;
+		margin-top: 2rem;
+		line-height: 150%;
+		font-size: 1rem;
+	}
 }
 
 @media screen and (min-width: 800px) {
@@ -208,6 +142,13 @@ export default {
 
 	.surveyButtonWrap {
 		font-size: 2rem;
+	}
+
+	.thanksText {
+		width: 80%;
+		margin-top: 2rem;
+		line-height: 150%;
+		font-size: 1.2rem;
 	}
 
 }
@@ -378,6 +319,18 @@ export default {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.thanks {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5vh;
+	padding-bottom: 15vh;
+	background-image: url("~@/assets/image/top.png");
+	background-size: cover;
+	background-position: center;
 }
 
 </style>

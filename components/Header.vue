@@ -1,10 +1,10 @@
 <template>
 <header>
 	<nuxt-link to="/"><img class="logo" src="@/assets/image/header/Logotype_B.svg" alt="オンライン文化祭"></nuxt-link>	
-	<div class="link"><nuxt-link to="/about">About</nuxt-link></div>
-	<div class="link"><nuxt-link to="/bushi">サークル</nuxt-link></div>
-	<div class="link"><nuxt-link to="/stage">ステージ</nuxt-link></div>
-	<div class="link"><nuxt-link to="/decorate">装飾</nuxt-link></div>
+	<div class="link"></div>
+	<div class="link"></div>
+	<div class="link"></div>
+	<div class="link"></div>
 </header>
 </template>
 
