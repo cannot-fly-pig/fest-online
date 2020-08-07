@@ -32,7 +32,7 @@
 
 		<div class="touhyouKotira">
 			<nuxt-link to="#touhyou">
-				投票はこちらから
+				結果はこちらから
 			</nuxt-link>
 		</div>
 
@@ -102,8 +102,10 @@
 			:entryImage="require('@/assets/image/bijokon/shutuenn8.png')"
 			:imagePosition="sayuu"
 		/>
+
 		<div class="touhyouButton" id="touhyou">
-			<a href="https://forms.gle/q6codsGro7GnkSGC7" target="_blank">投票する</a>
+			<div class="resultText">投票結果</div>
+			<img class="resultImage" :src="resultImage" alt="">
 		</div>
 	</div>
 
@@ -132,13 +134,15 @@ export default {
 			show: false,
 			path: process.env.bijokon,
 			parson: 0,
-			num: 0
+			num: 0,
+			resultImage: require("@/assets/image/bijokon/resultPC.png")
 		}
 	},
 	mounted () {
 		console.log(process.env.bijokon)
 		if (window.innerWidth <= 800) {
 			this.sayuu = "right"
+			this.resultImage = require("@/assets/image/bijokon/resultMobile.png")
 		}
 	},
 	methods: {
@@ -191,6 +195,10 @@ export default {
 	.before,.after {
 		width: 10vw;
 	}
+	.resultText {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
 }
 
 @media screen and (min-width: 800px) {
@@ -232,6 +240,14 @@ export default {
 
 	.before,.after {
 		width: 5vw;
+	}
+	.resultText {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+	
+	.resultImage {
+		margin-left: 10%;
 	}
 
 }
@@ -363,8 +379,6 @@ main {
 .touhyouButton {
 	font-size: 2rem;
 	margin-top: 2rem;
-	color: white;
-	font-weight: bold;
 	text-align: center;
 	width: 100%;
 }
@@ -373,6 +387,10 @@ main {
 	background-color: #F39D41;
 	padding: 1rem;
 	border-radius: 20px;
+}
+
+.resultImage {
+	width: 80%;
 }
 
 a:hover, a:link, a:visited, a:active {
